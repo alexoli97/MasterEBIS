@@ -1,0 +1,18 @@
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Bases de datos generadas al ejecutar los labs
+*.db
+*.sqlite3
+
+# Chroma vector store (directorios UUID generados al ejecutar labs RAG)
+[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]-*/
+
+# Scripts generados por %%writefile en los notebooks
+chatbot_sql.py
+
+# Credenciales y entornos locales
+.env
+*.key
