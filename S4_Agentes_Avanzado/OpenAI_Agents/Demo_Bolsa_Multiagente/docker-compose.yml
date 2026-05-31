@@ -1,0 +1,13 @@
+services:
+  bolsa:
+    build: .
+    image: bolsa:latest
+    container_name: bolsa
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${APP_PORT:-8501}:8501"
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - ./src:/app/src:ro  # hot reload for dev — remove in prod

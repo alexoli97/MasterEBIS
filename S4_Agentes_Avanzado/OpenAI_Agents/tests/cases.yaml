@@ -1,0 +1,24 @@
+- id: q1
+  pregunta: "¿En qué fechas aproximadas florecen los cerezos en Tokio y Kioto?"
+  keyword: "marzo"
+  manual_esperado: "guia_japon.pdf"
+
+- id: q2
+  pregunta: "¿Necesitan visado los ciudadanos españoles para entrar a Tailandia y cuántos días pueden quedarse sin él?"
+  keyword: "30"
+  manual_esperado: "guia_tailandia.pdf"
+
+- id: q3
+  pregunta: "¿Qué moneda se usa en Portugal y se acepta tarjeta en sitios pequeños?"
+  keyword: "euro"
+  manual_esperado: "guia_portugal.pdf"
+
+- id: q4
+  pregunta: "¿Cuál es el presupuesto diario aproximado para un viajero económico en Japón en euros?"
+  keyword: "37"
+  manual_esperado: "guia_japon.pdf"
+
+- id: q5
+  pregunta: "¿Cuánto cobra de comisión el cajero automático en Tailandia por retirada?"
+  keyword: "220"
+  manual_esperado: "guia_tailandia.pdf"
