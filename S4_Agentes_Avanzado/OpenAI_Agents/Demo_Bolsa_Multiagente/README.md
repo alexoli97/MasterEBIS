@@ -105,8 +105,8 @@ Se abre en `http://localhost:8501`.
 
 ```
 OPENAI_API_KEY=sk-...
-OPENAI_MODEL=gpt-4o              # modelo para los especialistas
-OPENAI_MODEL_REASONING=o3-mini   # modelo para el CIO (síntesis)
+OPENAI_MODEL=gpt-6-luna          # modelo para los especialistas (rápido y barato)
+OPENAI_MODEL_REASONING=gpt-6.1-sol  # modelo para el CIO (síntesis, más capaz)
 ```
 
 ---

@@ -12,9 +12,9 @@ load_dotenv()
 
 class Settings(BaseModel):
     openai_api_key: str = Field(default_factory=lambda: os.getenv("OPENAI_API_KEY", ""))
-    openai_model: str = Field(default_factory=lambda: os.getenv("OPENAI_MODEL", "gpt-5.5"))
+    openai_model: str = Field(default_factory=lambda: os.getenv("OPENAI_MODEL", "gpt-6-luna"))
     openai_model_reasoning: str = Field(
-        default_factory=lambda: os.getenv("OPENAI_MODEL_REASONING", "gpt-5.5")
+        default_factory=lambda: os.getenv("OPENAI_MODEL_REASONING", "gpt-6.1-sol")
     )
 
     max_weight_per_asset: float = Field(
