@@ -22,3 +22,7 @@
   pregunta: "¿Cuánto cobra de comisión el cajero automático en Tailandia por retirada?"
   keyword: "220"
   manual_esperado: "guia_tailandia.pdf"
+
+- id: q6
+  pregunta: "¿Qué vacunas son obligatorias para viajar a Perú?"
+  sin_respuesta: true   # no está en las guías: el agente debe decir que no lo sabe, no inventar
