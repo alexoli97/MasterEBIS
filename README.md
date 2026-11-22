@@ -49,7 +49,7 @@ MasterEBIS/
 | `S2_Lab_Evals.ipynb` | En clase: dataset de evaluación, reglas en código, juez con rúbrica y comparación de variantes |
 | `S2_Lab_Decisions.ipynb` | En clase: decision models frente a generativo en un triaje de tickets |
 | `S2_Lab_Streamlit.ipynb` | En clase: una app de Streamlit en directo |
-| `S2_Lab_Snowflake_Cortex.ipynb` | Guía en clase: Text-to-SQL con Snowflake Cortex Analyst (datos en `cortex_data/`) |
+| `S2_Lab_Snowflake_Cortex.ipynb` · `S2_Lab_Snowflake_Cortex_app.py` | Guía en clase: Text-to-SQL con Snowflake Cortex Analyst (datos en `cortex_data/`) y la app de Streamlit in Snowflake completa |
 | `S2_Reto_Agente_SQL.ipynb` · `_Solucion` | Reto: agente analista de datos sin framework, con tools, guardarraíles, evaluación y chatbot en Streamlit |
 
 ## Sesión 3 — Agentes y vibe coding (`S3_Agentes/`)
