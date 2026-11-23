@@ -25,6 +25,7 @@
   <p class="sub">Esta página es pública. La clave de OpenAI no está aquí: la usa una función en el servidor.</p>
   <form id="f">
     <input id="pregunta" maxlength="300" placeholder="¿Qué es un token?" required>
+    <input id="codigo" placeholder="Código" style="flex:0 0 110px" title="Código de acceso, si el profesor lo ha activado">
     <button id="boton">Preguntar</button>
   </form>
   <div id="respuesta"></div>
@@ -41,9 +42,9 @@
       const r = await fetch("/api/pregunta", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ pregunta: document.getElementById("pregunta").value }),
+        body: JSON.stringify({ pregunta: document.getElementById("pregunta").value, codigo: document.getElementById("codigo").value }),
       });
-      const datos = await r.json();
+      const datos = await r.json().catch(() => ({ error: "Respuesta no válida del servidor." }));
       salida.textContent = datos.respuesta || datos.error || "Sin respuesta.";
     } catch (err) {
       salida.textContent = "No se pudo conectar con el servidor.";
