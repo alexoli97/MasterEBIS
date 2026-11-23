@@ -58,6 +58,7 @@ MasterEBIS/
 |---|---|
 | `S3_Lab_MCP.ipynb` | En clase: servidor MCP propio, MCP Inspector y conexión con un LLM |
 | `S3_Lab_Copilot_Studio.pdf` · `S3_Bicis_Nube_Manual.pdf` | En clase: construcción de un agente de soporte en Copilot Studio con el manual de una empresa ficticia |
+| `S3_Demo_Despliegue_Vercel/` | Demo en clase: de localhost a internet, una página pública con una función de servidor que guarda la clave (ver su README) |
 | `S3_Reto_VibeCoding.ipynb` | Reto opcional de vibe coding en tres niveles: dashboard en Streamlit, agente con API o servidor MCP propio |
 
 ## Sesión 4 — Prototipado de agentes (`S4_Agentes_Avanzado/`)
